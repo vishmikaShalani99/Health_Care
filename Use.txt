@@ -1,0 +1,2 @@
+1. Open the "MMS" folder through IntelliJ IDEA to run the 'Medical Management System' application successfully.
+2. If a 'connection error' occurs while running the application, check that the file "mysql-connector-java-8.0.28" exists in the external libraries of the IntelliJ IDEA. 

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="admin_search">
+  <grid id="27dc6" binding="adminsearch" layout-manager="GridLayoutManager" row-count="10" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="5" bottom="5" right="5"/>
+    <constraints>
+      <xy x="20" y="20" width="1080" height="450"/>
+    </constraints>
+    <properties>
+      <minimumSize width="1080" height="450"/>
+      <preferredSize width="1080" height="450"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <scrollpane id="1d214" binding="tblload">
+        <constraints>
+          <grid row="2" column="4" row-span="7" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-15333311"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d37f4" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <hspacer id="70c9c">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="93a3f" class="javax.swing.JLabel" binding="lbltype">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <text value="Select Type"/>
+        </properties>
+      </component>
+      <component id="915a7" class="javax.swing.JComboBox" binding="cmbxtype">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <model>
+            <item value="Doctor"/>
+            <item value="Nurse"/>
+            <item value="Receptionist"/>
+            <item value="Patient"/>
+            <item value="Appointment"/>
+            <item value="payment"/>
+          </model>
+        </properties>
+      </component>
+      <component id="8bb97" class="javax.swing.JButton" binding="btnall">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15333311"/>
+          <enabled value="true"/>
+          <font size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Search All"/>
+        </properties>
+      </component>
+      <component id="3c6a0" class="javax.swing.JTextField" binding="txtid">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8877b" class="javax.swing.JLabel" binding="lblid">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <text value="Enter  ID"/>
+        </properties>
+      </component>
+      <component id="d2c41" class="javax.swing.JButton" binding="btnsearch">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15333311"/>
+          <enabled value="true"/>
+          <font size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Search"/>
+        </properties>
+      </component>
+      <component id="2fbf2" class="javax.swing.JButton" binding="btndelete">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15333311"/>
+          <font size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Delete"/>
+        </properties>
+      </component>
+      <component id="923f2" class="javax.swing.JButton" binding="btnback">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15333311"/>
+          <font size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="  Back  "/>
+        </properties>
+      </component>
+      <vspacer id="9f00b">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="5ec41" class="javax.swing.JLabel" binding="lbldashboard">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Adobe Fangsong Std R" size="28" style="1"/>
+          <text value="Search Details"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
